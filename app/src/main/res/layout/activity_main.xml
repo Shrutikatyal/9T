@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#2c3157"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="168dp"
+        app:cardBackgroundColor="#2c3157"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="12dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="368dp"
+            android:layout_height="146dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            app:cardBackgroundColor="#7032ff"
+            app:cardCornerRadius="10dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="29dp">
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="115dp"
+                android:layout_marginTop="4dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/contestName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GRAND SOLO #4083"
+                        android:textColor="#f7f7f7"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/dateTime"
+                        android:layout_height="wrap_content"
+                        android:text="Date: 2020-03-09 Time: 10:00 PM"
+                        android:textColor="#f7f7f7"
+                        android:textSize="8dp" />
+
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="45dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/title1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="WIN PRICE"
+                        android:textColor="#f7f7f7"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:id="@+id/title2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="PER KILL"
+                        android:textColor="#f7f7f7"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:id="@+id/title3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Entry Fees"
+                        android:textColor="#f7f7f7"
+                        android:textSize="10dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp">
+
+                    <TextView
+                        android:id="@+id/price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="1000 Rs"
+                        android:textColor="#f7f7f7"
+                        android:textSize="9.2dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/perKill"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="30 Rs"
+                        android:textColor="#f7f7f7"
+                        android:textSize="9.2dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/fees"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="50 Rs"
+                        android:textColor="#f7f7f7"
+                        android:textSize="9.2dp"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/title4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="TYPE"
+                        android:textColor="#f7f7f7"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:id="@+id/title5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="VERSION"
+                        android:textColor="#f7f7f7"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:id="@+id/title6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="MAP"
+                        android:textColor="#f7f7f7"
+                        android:textSize="10dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp">
+
+                    <TextView
+                        android:id="@+id/type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Solo"
+                        android:textColor="#f7f7f7"
+                        android:textSize="9.2dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/version"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="TPP"
+                        android:textColor="#f7f7f7"
+                        android:textSize="9.2dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/map"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="ERANGLE"
+                        android:textColor="#f7f7f7"
+                        android:textSize="9.2dp"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_height="wrap_content"
+                android:progress="25"
+                android:layout_width="match_parent"
+                android:progressTint="#2c3157"
+                android:progressBackgroundTint="#FFF"
+                android:layout_marginLeft="90dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginBottom="13dp"
+                android:layout_gravity="bottom"
+                />
+
+            <TextView
+                android:id="@+id/leftCount"
+                android:layout_height="wrap_content"
+                android:text="Only 87 left"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="93dp"
+                android:textColor="#f7f7f7"
+                android:textSize="8dp"
+                android:layout_width="wrap_content" />
+
+            <TextView
+                android:id="@+id/totalCount"
+                android:layout_height="wrap_content"
+                android:text="13/100"
+                android:layout_gravity="bottom|right"
+                android:layout_marginBottom="6dp"
+                android:layout_marginRight="80dp"
+                android:textColor="#f7f7f7"
+                android:textSize="8dp"
+                android:layout_width="wrap_content" />
+
+            <Button
+                android:id="@+id/button"
+                style="@style/Widget.AppCompat.Button.Small"
+                android:layout_height="30dp"
+                android:layout_width="50dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginRight="20dp"
+                android:foregroundGravity="center"
+                android:padding="0dp"
+                android:layout_gravity="bottom|right"
+                android:text="JOIN"
+                android:textSize="10dp"
+                 />
+
+        </android.support.v7.widget.CardView>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/player" />
+
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="168dp"
+        app:cardBackgroundColor="#2c3157"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="200dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="368dp"
+            android:layout_height="146dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            app:cardBackgroundColor="#8652ff"
+            app:cardCornerRadius="10dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="222dp">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="4dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/contestName2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GRAND SOLO #4083"
+                        android:textColor="#f7f7f7"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/dateTime2"
+                        android:layout_height="wrap_content"
+                        android:text="Date: 2020-03-09 Time: 10:00 PM"
+                        android:textColor="#f7f7f7"
+                        android:textSize="8dp" />
+
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="105dp"
+                android:layout_marginTop="45dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/title12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="WIN PRICE"
+                        android:textColor="#f7f7f7"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:id="@+id/title22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="PER KILL"
+                        android:textColor="#f7f7f7"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:id="@+id/title32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Entry Fees"
+                        android:textColor="#f7f7f7"
+                        android:textSize="10dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp">
+
+                    <TextView
+                        android:id="@+id/price2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="1000 Rs"
+                        android:textColor="#f7f7f7"
+                        android:textSize="9.2dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/perKill2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="30 Rs"
+                        android:textColor="#f7f7f7"
+                        android:textSize="9.2dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/fees2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="50 Rs"
+                        android:textColor="#f7f7f7"
+                        android:textSize="9.2dp"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/title42"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="TYPE"
+                        android:textColor="#f7f7f7"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:id="@+id/title52"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="VERSION"
+                        android:textColor="#f7f7f7"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:id="@+id/title62"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="MAP"
+                        android:textColor="#f7f7f7"
+                        android:textSize="10dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp">
+
+                    <TextView
+                        android:id="@+id/type2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Solo"
+                        android:textColor="#f7f7f7"
+                        android:textSize="9.2dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/version2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="TPP"
+                        android:textColor="#f7f7f7"
+                        android:textSize="9.2dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/map2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="ERANGLE"
+                        android:textColor="#f7f7f7"
+                        android:textSize="9.2dp"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <ProgressBar
+                android:id="@+id/progressBar2"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_height="wrap_content"
+                android:progress="25"
+                android:layout_width="match_parent"
+                android:progressTint="#2c3157"
+                android:progressBackgroundTint="#FFF"
+                android:layout_marginRight="170dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="13dp"
+                android:layout_gravity="bottom"
+                />
+
+            <TextView
+                android:id="@+id/leftCount2"
+                android:layout_height="wrap_content"
+                android:text="Only 87 left"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="13dp"
+                android:textColor="#f7f7f7"
+                android:textSize="8dp"
+                android:layout_width="wrap_content" />
+
+            <TextView
+                android:id="@+id/totalCount2"
+                android:layout_height="wrap_content"
+                android:text="13/100"
+                android:layout_gravity="bottom|right"
+                android:layout_marginBottom="6dp"
+                android:layout_marginRight="170dp"
+                android:textColor="#f7f7f7"
+                android:textSize="8dp"
+                android:layout_width="wrap_content" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/Widget.AppCompat.Button.Small"
+                android:layout_height="30dp"
+                android:layout_width="50dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginRight="110dp"
+                android:foregroundGravity="center"
+                android:padding="0dp"
+                android:layout_gravity="bottom|right"
+                android:text="JOIN"
+                android:textSize="10dp"
+                />
+
+
+        </android.support.v7.widget.CardView>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:elevation="10dp"
+            app:srcCompat="@drawable/player" />
+
+    </android.support.v7.widget.CardView>
+
+    <!--<android.support.v7.widget.CardView-->
+        <!--android:layout_width="368dp"-->
+        <!--android:layout_height="145dp"-->
+        <!--app:cardBackgroundColor="#8652ff"-->
+        <!--app:cardCornerRadius="10dp"-->
+        <!--tools:ignore="MissingConstraints"-->
+        <!--tools:layout_editor_absoluteX="8dp"-->
+        <!--tools:layout_editor_absoluteY="287dp" />-->
+</android.support.constraint.ConstraintLayout>
