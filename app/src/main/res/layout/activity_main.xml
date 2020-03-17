@@ -1,31 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="#2c3157"
+    android:background="@color/bgcolor"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Activities.MainActivity">
 
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="168dp"
-        app:cardBackgroundColor="#2c3157"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        app:cardBackgroundColor="@color/bgcolor"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="12dp">
+        >
 
         <android.support.v7.widget.CardView
-            android:layout_width="368dp"
+            android:layout_width="match_parent"
             android:layout_height="146dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            app:cardBackgroundColor="#7032ff"
+            app:cardBackgroundColor="@color/cardfront"
+            android:elevation="10dp"
+            app:cardElevation="6dp"
+            app:cardMaxElevation="10dp"
             app:cardCornerRadius="10dp"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="8dp"
             tools:layout_editor_absoluteY="29dp">
-
 
             <TableLayout
                 android:layout_width="match_parent"
@@ -229,7 +234,7 @@
                 android:layout_height="wrap_content"
                 android:progress="25"
                 android:layout_width="match_parent"
-                android:progressTint="#2c3157"
+                android:progressTint="@color/bgcolor"
                 android:progressBackgroundTint="#FFF"
                 android:layout_marginLeft="90dp"
                 android:layout_marginRight="80dp"
@@ -290,17 +295,18 @@
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="168dp"
-        app:cardBackgroundColor="#2c3157"
+        app:cardBackgroundColor="@color/bgcolor"
         tools:ignore="MissingConstraints"
+        android:layout_margin="15dp"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="200dp">
 
         <android.support.v7.widget.CardView
-            android:layout_width="368dp"
+            android:layout_width="match_parent"
             android:layout_height="146dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            app:cardBackgroundColor="#8652ff"
+            app:cardBackgroundColor="@color/cardfront"
             app:cardCornerRadius="10dp"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="8dp"
@@ -508,7 +514,7 @@
                 android:layout_height="wrap_content"
                 android:progress="25"
                 android:layout_width="match_parent"
-                android:progressTint="#2c3157"
+                android:progressTint="@color/bgcolor"
                 android:progressBackgroundTint="#FFF"
                 android:layout_marginRight="170dp"
                 android:layout_marginLeft="10dp"
@@ -573,4 +579,4 @@
         <!--tools:ignore="MissingConstraints"-->
         <!--tools:layout_editor_absoluteX="8dp"-->
         <!--tools:layout_editor_absoluteY="287dp" />-->
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
